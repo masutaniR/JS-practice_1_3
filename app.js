@@ -8,10 +8,10 @@ var js_hand = getJShand();
 
 var judge = winLose(user_hand, js_hand);
 
-if(user_hand == null){
-  alert('またチャレンジしてね');
-} else{
+if(user_hand != null){
   alert('あなたの選んだ手は' + user_hand + 'です。\nJavaScriptの選んだ手は' + js_hand + 'です。\n結果は' + judge + 'です。');
+} else{
+  alert('またチャレンジしてね');
 }
 
 function getJShand(){
