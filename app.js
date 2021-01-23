@@ -1,10 +1,7 @@
-var orange = 100;
-var apple = 120;
+var int1 = 9;
+var int2 = 3;
 
-if(orange < apple){
-  alert('みかんの値段がりんごより安い');
-} else if(orange == apple){
-  alert('みかんとりんごが同じ値段');
-} else{
-  alert('みかんの値段がりんごより安い');
-}
+alert(int1 + ' + ' + int2 + ' = ' + (int1 + int2));
+alert(int1 + ' - ' + int2 + ' = ' + (int1 - int2));
+alert(int1 + ' * ' + int2 + ' = ' + (int1 * int2));
+alert(int1 + ' / ' + int2 + ' = ' + (int1 / int2));
