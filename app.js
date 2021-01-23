@@ -1,7 +1,9 @@
-var int1 = 9;
-var int2 = 3;
+var alertString;
+alertString = addString("WebCamp");
 
-alert(int1 + ' + ' + int2 + ' = ' + (int1 + int2));
-alert(int1 + ' - ' + int2 + ' = ' + (int1 - int2));
-alert(int1 + ' * ' + int2 + ' = ' + (int1 * int2));
-alert(int1 + ' / ' + int2 + ' = ' + (int1 / int2));
+alert(alertString);
+
+function addString(strA){
+  var addStr = "Hello " + strA;
+  return addStr;
+}
